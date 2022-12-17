@@ -1,7 +1,6 @@
-import '../../assets/styles/globalStyles.css';
 import React, { useState } from 'react'
-import { Login } from "../../pages/login/login";
-import { Register } from "../../pages/signUp/register";
+import { Login } from "../../../pages/login/login";
+import { Register } from "../../../pages/signUp/register";
 function Body() {
 
   const [currentForm, setCurrentForm] = useState('login');
