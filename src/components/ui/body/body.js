@@ -1,18 +1,17 @@
-import React, { useState } from 'react'
-import { Login } from "../../../pages/login/login";
-import { Register } from "../../../pages/signUp/register";
+import React from 'react'
+//import { Login } from "../../../pages/login/login";
+//import { Register } from "../../../pages/signUp/register";
+import ValidationComponent from '../../../pages/validators/validatorsComponent';
 function Body() {
 
-  const [currentForm, setCurrentForm] = useState('login');
-  const toggleForm = (formName) => {
-    setCurrentForm(formName);
-  }
+  //const [currentForm, setCurrentForm] = useState('login');
+  //const toggleForm = (formName) => {
+  //  setCurrentForm(formName);
+  //}
 
   return (
    <div className='body'>
-    {
-      currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} />
-    }
+    <ValidationComponent/>
    </div>
   );
 }

@@ -29,8 +29,8 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgb(86,199,223);
-    background: linear-gradient(-45deg, rgb(0, 87, 130) 0%, rgba(119,239,245,1) 43%, rgba(67,191,233,1) 74%, rgb(0, 124, 186) 100%);
+    background: rgb(191, 140, 104);
+
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 }
