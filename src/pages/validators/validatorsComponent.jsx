@@ -34,6 +34,7 @@ class ValidationComponent extends Component {
         </div>
         );
     }
+    
     validateUserNameData(event) {
         let id = event.target.id;
         let data = event.target.value;
