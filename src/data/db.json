@@ -1,35 +1,48 @@
 {
-  "response_code": 0,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Geography"
+    },
+    {
+      "id": 2,
+      "name": "History"
+    },
+    {
+      "id": 3,
+      "name": "Vehicles"
+    }
+  ],
   "results": [
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What European country is not a part of the EU?",
-      "correct_answer": "Norway",
+      "question": "Ktory z tych kraji nie jest w UE?",
+      "correct_answer": "Norwegia",
       "incorrect_answers": [
-        "Lithuania",
-        "Ireland",
-        "Czechia"
+        "Litwa",
+        "Irlandia",
+        "Czechy"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "On a London Underground map, what colour is the Circle Line?",
-      "correct_answer": "Yellow",
+      "question": "Jaka jest stolica Hiszpani?",
+      "correct_answer": "Madryt",
       "incorrect_answers": [
-        "Red",
-        "Blue",
-        "Green"
+        "Lizbona",
+        "Moskwa",
+        "Oslo"
       ]
     },
     {
       "category": "Geography",
       "type": "boolean",
       "difficulty": "medium",
-      "question": "Seoul is the capital of North Korea.",
+      "question": "Czy schody hiszpańskie znajdują sie w Hiszpanii?",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -39,29 +52,29 @@
       "category": "Geography",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Greenland is almost as big as Africa.",
-      "correct_answer": "False",
+      "question": "Wisła to najdłuższa rzeka w Polsce?",
+      "correct_answer": "True",
       "incorrect_answers": [
-        "True"
+        "False"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these is NOT an Australian state or territory?",
-      "correct_answer": "Alberta",
+      "question": "Kto jest prezydentem Polski?",
+      "correct_answer": "Andrzej Duda",
       "incorrect_answers": [
-        "New South Wales",
-        "Victoria",
-        "Queensland"
+        "Jan Błachowicz",
+        "Adam Małysz",
+        "Mariusz Pudzianowski"
       ]
     },
     {
       "category": "Geography",
       "type": "boolean",
       "difficulty": "medium",
-      "question": "The surface area of Russia is slightly larger than that of the dwarf planet Pluto.",
+      "question": "Islandia jest wyspą",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -71,7 +84,7 @@
       "category": "Geography",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Vatican City is a country.",
+      "question": "Watykan jest państwem.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -81,11 +94,11 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which European city has the highest mileage of canals in the world?",
-      "correct_answer": "Birmingham",
+      "question": "Które miasto w Europie ma najwięcej mieszkańców",
+      "correct_answer": "Londyn",
       "incorrect_answers": [
-        "Venice",
-        "Amsterdam",
+        "Warszawa",
+        "Rzym",
         "Berlin"
       ]
     },
@@ -93,67 +106,67 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In which English county is Stonehenge?",
+      "question": "Gdzie znajduje się Stonehenge?",
+      "correct_answer": "Anglia",
+      "incorrect_answers": [
+        "Hiszpania",
+        "Estonia",
+        "Finlandia"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Jaka jest stolica Finlandii?",
+      "correct_answer": "Helsinki",
+      "incorrect_answers": [
+        "Sztokholm",
+        "Białystok",
+        "Pekin"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Jaka rzeka płynie przez Londyn?",
+      "correct_answer": "Tamiza",
+      "incorrect_answers": [
+        "Sekwana",
+        "Wisła",
+        "Dunaj"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "W jakim hrabstwie znajduję się Stonehenge?",
       "correct_answer": "Wiltshire",
       "incorrect_answers": [
-        "Somerset",
-        "Cumbria",
-        "Herefordshire"
+        "Hampshire",
+        "Podlasie",
+        "Bawaria"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What are the four corner states of the US?",
-      "correct_answer": "Utah, Colorado, Arizona, New Mexico",
+      "question": "W jakim województwie leżą Kielce?",
+      "correct_answer": "Świętokrzyskie",
       "incorrect_answers": [
-        "Oregon, Idaho, Nevada, Utah",
-        "Kansas, Oklahoma, Arkansas, Louisiana",
-        "South Dakota, Minnesota, Nebraska, Iowa"
+        "Podlaskie",
+        "Małopolskie",
+        "Pomorskie"
       ]
     },
     {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "What colour is the circle on the Japanese flag?",
-      "correct_answer": "Red",
-      "incorrect_answers": [
-        "White",
-        "Yellow",
-        "Black"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Which of these is NOT a province in China?",
-      "correct_answer": "Yangtze",
-      "incorrect_answers": [
-        "Fujian",
-        "Sichuan",
-        "Guangdong"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "The land of Gotland is located in which European country?",
-      "correct_answer": "Sweden",
-      "incorrect_answers": [
-        "Denmark",
-        "Norway",
-        "Germany"
-      ]
-    },
-    {
-      "category": "Geography",
+      "category": "History",
       "type": "boolean",
       "difficulty": "medium",
-      "question": "The longest place named in the United States is Lake Chargoggagoggmanchauggagoggchaubunagungamaugg, located near Webster, MA.",
+      "question": "Czy Polak był w kosmosie?",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -163,65 +176,65 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which of the following Inuit languages was the FIRST to use a unique writing system not based on the Latin alphabet?",
-      "correct_answer": "Inuktitut",
+      "question": "Jakie jest najmniejsze państwo w europie?",
+      "correct_answer": "Watykan",
       "incorrect_answers": [
-        "Inuinnaqtun",
-        "Greenlandic",
-        "Inupiat"
+        "Andora",
+        "Niemcy",
+        "Portugalia"
       ]
     },
     {
-      "category": "Geography",
+      "category": "History",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "The historical city Timbuktu is located in which West African country?",
-      "correct_answer": "Mali",
+      "question": "Gdzie urodził się Adolf Hitler?",
+      "correct_answer": "Austria",
       "incorrect_answers": [
-        "Senegal",
-        "Niger",
-        "Burkina Faso"
+        "Niemcy",
+        "Rosja",
+        "Szwajcaria"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these is the name of the largest city in the US state Tennessee?",
-      "correct_answer": "Memphis",
+      "question": "Jaki jest oficjalny język w Polsce?",
+      "correct_answer": "polski",
       "incorrect_answers": [
-        "Thebes",
-        "Alexandria",
-        "Luxor"
+        "rosyjski",
+        "litewski",
+        "hiszpański"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the right way to spell the capital of Hungary?",
-      "correct_answer": "Budapest",
+      "question": "Jaka jest stolica Mołdawi?",
+      "correct_answer": "Kiszyniów",
       "incorrect_answers": [
-        "Boodapest",
-        "Bhudapest",
-        "Budapast"
+        "Kijów",
+        "Paryż",
+        "Sarajewo"
       ]
     },
     {
-      "category": "Geography",
+      "category": "History",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "There are no deserts in Europe.",
+      "question": "Czy Napoleon był francuzem?",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
       ]
     },
     {
-      "category": "Geography",
+      "category": "History",
       "type": "boolean",
       "difficulty": "medium",
-      "question": "&quot;Mongolia&quot; was a part of the now non-existent U.S.S.R.",
+      "question": "Czy 2WŚ trwała 7 lat?",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -231,19 +244,19 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch is located on which Welsh island?",
-      "correct_answer": "Anglesey",
+      "question": "Na jakiej wyspie znajduję się wulkan Etna?",
+      "correct_answer": "Sycylia",
       "incorrect_answers": [
-        "Barry",
-        "Bardsey",
-        "Caldey"
+        "Korsyka",
+        "Kreta",
+        "Skiathos"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is the area of Vatican City?",
+      "question": "Jaka jest powierzchnia Watykanu?",
       "correct_answer": "0.44km^2",
       "incorrect_answers": [
         "0.10km^2",
@@ -255,7 +268,7 @@
       "category": "Geography",
       "type": "boolean",
       "difficulty": "medium",
-      "question": "The Sonoran Desert is located in eastern Africa.",
+      "question": "Czy góry Ural leżą w Serbii?",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -265,7 +278,7 @@
       "category": "Geography",
       "type": "boolean",
       "difficulty": "medium",
-      "question": "Japan has left-hand side traffic.",
+      "question": "Czy Norwegia graniczy z Rosją?",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -275,56 +288,56 @@
       "category": "Geography",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "California is larger than Japan.",
-      "correct_answer": "True",
+      "question": "Czy Czesi mają dostęp do morza?",
+      "correct_answer": "False",
       "incorrect_answers": [
-        "False"
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "W którym roku była bitwa pod Grunwaldem?",
+      "correct_answer": "1410",
+      "incorrect_answers": [
+        "1394",
+        "1411",
+        "1407"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Ile lat rządziła Królowa Elżbieta 2 ?",
+      "correct_answer": "70",
+      "incorrect_answers": [
+        "54",
+        "60",
+        "64"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the busiest port in Europe?",
-      "correct_answer": "Port of Rotterdam",
+      "question": "Jaka jest stolica Cypru?",
+      "correct_answer": "Nikozja",
       "incorrect_answers": [
-        "Port of Antwerp",
-        "Port of Hamburg",
-        "Port of Amsterdam"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which Canadian province has Charlottetown as its capital?",
-      "correct_answer": "Prince Edward Island",
-      "incorrect_answers": [
-        "Saskachewan",
-        "Northwest Terrirories",
-        "Ontario"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "What is the capital of British Columbia, Canada?",
-      "correct_answer": "Victoria",
-      "incorrect_answers": [
-        "Vancouver",
-        "Hope",
-        "Kelowna"
+        "Jaunde",
+        "Ankara",
+        "Berlin"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the Polish city known to Germans as Danzig?",
+      "question": "Które miasto niemcy nazywali Danzig?",
       "correct_answer": "Gdańsk",
       "incorrect_answers": [
-        "Warsaw",
+        "Warszawa",
         "Zakopane",
         "Poznań"
       ]
@@ -333,31 +346,31 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the capital of Seychelles?",
-      "correct_answer": "Victoria",
+      "question": "Śnieżka to szczyt w jakim paśmie górskim?",
+      "correct_answer": "Sudety i Karkonosze",
       "incorrect_answers": [
-        "Luanda",
-        "N&#039;Djamena",
-        "Tripoli"
+        "Karpaty",
+        "Tatry",
+        "Bieszczady"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the capital of Belarus?",
+      "question": "Jaka jest stolica Bialorusi?",
       "correct_answer": "Minsk",
       "incorrect_answers": [
-        "Warsaw",
-        "Kiev",
-        "Vilnius"
+        "Warszawa",
+        "Kijów",
+        "Wilno"
       ]
     },
     {
       "category": "Geography",
       "type": "boolean",
       "difficulty": "medium",
-      "question": "Norway has a larger land area than Sweden.",
+      "question": "Norwegia ma większą powierzchnię niż Szwecja",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -367,19 +380,19 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is the capital city of Bermuda?",
-      "correct_answer": "Hamilton",
+      "question": "Jaka rzeka płynie przez Lizbone?",
+      "correct_answer": "Tag",
       "incorrect_answers": [
-        "Santo Dominigo",
-        "San Juan",
-        "Havana"
+        "Sekwana",
+        "Dunaj",
+        "Odra"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the capital city of Slovenia?",
+      "question": "Jaka jest stolica Słowenii?",
       "correct_answer": "Ljubljana",
       "incorrect_answers": [
         "Maribor",
@@ -388,118 +401,118 @@
       ]
     },
     {
-      "category": "Geography",
+      "category": "History",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What continent is the country Lesotho in?",
-      "correct_answer": "Africa",
+      "question": "Z którego państwa pochodzi papież Benedykt XVI",
+      "correct_answer": "Niemcy",
       "incorrect_answers": [
-        "Asia",
-        "South America",
-        "Europe"
+        "Francja",
+        "Belgia",
+        "Irlandia"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the capital of Scotland?",
-      "correct_answer": "Edinburgh",
+      "question": "W jakim mieście jest Stadion Narodowy?",
+      "correct_answer": "Warszawa",
       "incorrect_answers": [
-        "Glasgow",
-        "Dundee",
-        "London"
+        "Kraków",
+        "Wrocław",
+        "Kielce"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "How many rivers are in Saudi Arabia?",
-      "correct_answer": "0",
+      "question": "Między jakimi państwami jest kanał La Manche",
+      "correct_answer": "Anglia-Francja",
       "incorrect_answers": [
-        "1",
-        "2",
-        "3"
+        "Anglia-Irlandia",
+        "Francja-Włochy",
+        "Polska-Czechy"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Into which basin does the Jordan River flow into?",
-      "correct_answer": "Dead Sea",
+      "question": "Jak nazywa się najmniejsze morze w Europie?",
+      "correct_answer": "Marmara",
       "incorrect_answers": [
-        "Aral Sea",
-        "Caspian Sea",
-        "Salton Sea"
+        "Bałtyckie",
+        "Kaspijskie",
+        "Martwe"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In which English county is the city of Portsmouth?",
-      "correct_answer": "Hampshire",
+      "question": "Jak niemcy mówią na miasto Wrocław?",
+      "correct_answer": "Breslasu",
       "incorrect_answers": [
-        "Oxfordshire",
-        "Buckinghamshire",
-        "Surrey"
+        "Danzig",
+        "Wurst",
+        "Kijów"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the name of the only remaining Grand Duchy in the world ?",
-      "correct_answer": "Luxembourg",
+      "question": "Z jakim krajem graniczy Liechtenstein?",
+      "correct_answer": "Austria",
       "incorrect_answers": [
-        "Montenegro",
-        "Liechtenstein",
-        "Andorra"
+        "Czarnogóra",
+        "Czechy",
+        "Andora"
       ]
     },
     {
-      "category": "Geography",
+      "category": "History",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What national museum will you find in Cooperstown, New York?",
-      "correct_answer": "National Baseball Hall of Fame",
+      "question": "W którym roku był potop Szwedzki?",
+      "correct_answer": "1655",
       "incorrect_answers": [
-        "Metropolitan Museum of Art",
-        "National Toy Hall of Fame",
-        "Museum of Modern Art"
+        "1612",
+        "1722",
+        "1679"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "How many states are in Australia?",
-      "correct_answer": "6",
+      "question": "Ile województw ma Polska?",
+      "correct_answer": "16",
       "incorrect_answers": [
-        "7",
-        "8",
-        "5"
+        "17",
+        "18",
+        "15"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the longest river in Europe?",
-      "correct_answer": "Volga",
+      "question": "Jaka jest najdłuższa rzeka w Europie?",
+      "correct_answer": "Wołga",
       "incorrect_answers": [
-        "Danube",
-        "Rhine",
-        "Thames"
+        "Odra",
+        "Sekwana",
+        "Tag"
       ]
     },
     {
       "category": "Geography",
       "type": "boolean",
       "difficulty": "hard",
-      "question": "Only one country in the world starts with the letter Q.",
+      "question": "Droga Św. Jakuba idzie przez hiszpanie",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -509,72 +522,202 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of these countries is not a United Nations member state?",
-      "correct_answer": "Niue",
+      "question": "Jakie jest największe jezioro w Europie?",
+      "correct_answer": "Ładoga",
       "incorrect_answers": [
-        "Tuvalu",
-        "South Sudan",
-        "Montenegro"
+        "Mamry",
+        "Śniardwy",
+        "Hornindalsvatne"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which country claims ownership of the disputed state Kosovo?",
-      "correct_answer": "Serbia",
+      "question": "Do którego państwa należy wyspa Skiathos?",
+      "correct_answer": "Grecja",
       "incorrect_answers": [
-        "Croatia",
+        "Chorwacja",
         "Albania",
-        "Macedonia"
+        "Włochy"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of the following is not a megadiverse country - one that harbors a high number of the earth&#039;s endemic species?",
-      "correct_answer": "Thailand",
+      "question": "W jaki kształt układają się Włochy?",
+      "correct_answer": "But",
       "incorrect_answers": [
-        "Peru",
-        "Mexico",
-        "South Africa"
+        "Hak",
+        "Pomarańcze",
+        "Czekolade"
       ]
     },
     {
-      "category": "Geography",
+      "category": "History",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is Laos?",
-      "correct_answer": "Country",
+      "question": "W którym roku wybuchla 1 WŚ",
+      "correct_answer": "1914",
       "incorrect_answers": [
-        "Region",
-        "River",
-        "City"
+        "1911",
+        "1917",
+        "1913"
       ]
     },
     {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which two modern-day countries used to be known as the region of Rhodesia between the 1890s and 1980?",
-      "correct_answer": "Zambia &amp; Zimbabwe",
+      "question": "Skąd pochodzi Święty Mikołaj?",
+      "correct_answer": "Finlandia",
       "incorrect_answers": [
-        "Togo &amp; Benin",
-        "Lesotho &amp; Swaziland",
-        "Rwanda &amp; Burundi"
+        "Rosja",
+        "Polska",
+        "Estonia"
       ]
     },
     {
-      "category": "Geography",
+      "category": "History",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is the largest freshwater lake by volume?",
-      "correct_answer": "Lake Baikal",
+      "question": "Ile mistrzostw Europy ma Hiszpania w piłce nożnej?",
+      "correct_answer": "3",
       "incorrect_answers": [
-        "Lake Superior",
-        "Lake Huron",
-        "Lake Michigan"
+        "2",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Gdzie produkowane są samochody Ferrari?",
+      "correct_answer": "Włochy",
+      "incorrect_answers": [
+        "Rumunia",
+        "Niemcy",
+        "Rosja"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Jakie zwierzę znajduję się na logo Abarth?",
+      "correct_answer": "Skorpion",
+      "incorrect_answers": [
+        "Wąż",
+        "Byk",
+        "Bizon"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "W którym włoskim mieście produkuje się Fiata?",
+      "correct_answer": "Turyn",
+      "incorrect_answers": [
+        "Maranello",
+        "Modena",
+        "Rzym"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Które państwo ma literę A w rejestracji?",
+      "correct_answer": "Austria",
+      "incorrect_answers": [
+        "Andora",
+        "Albania",
+        "Amsterdam"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "W jakim państwie produkowalo sie Jelcze?",
+      "correct_answer": "Polska",
+      "incorrect_answers": [
+        "Rosja",
+        "Niemcy",
+        "Białoruś"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Skąd pochodzi super-auto Hussarya?",
+      "correct_answer": "Polska",
+      "incorrect_answers": [
+        "Niemcy",
+        "Szwecja",
+        "Słowenia"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Ktore z wymienionych nie jest marką z Rosji?",
+      "correct_answer": "BYD",
+      "incorrect_answers": [
+        "Silant",
+        "Dragon",
+        "GAZ"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Dla jakiego zespołu jeździł Enzo Ferrari zanim założył swoją markę?",
+      "correct_answer": "Alfa Romeo",
+      "incorrect_answers": [
+        "Auto Union",
+        "Mercedes Benz",
+        "Bentley"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Marka Jaguar należała poprzednio do którego producenta?",
+      "correct_answer": "Ford",
+      "incorrect_answers": [
+        "Chrysler",
+        "General Motors",
+        "Fiat"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Który z poniższych pojazdów ma szklany dach jako opcja standardowa?",
+      "correct_answer": "Renault Avantime",
+      "incorrect_answers": [
+        "Audi a4",
+        "Mercedes-Benz A-Class",
+        "Fiat Multipla"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy Porsche 911 było produkowane tylko z silnikami boxer?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
       ]
     }
   ]

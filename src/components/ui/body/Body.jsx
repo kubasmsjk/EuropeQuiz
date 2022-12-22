@@ -1,17 +1,26 @@
 import React from 'react'
-//import { Login } from "../../../pages/login/login";
-//import { Register } from "../../../pages/signUp/register";
-import ValidationComponent from '../../../pages/validators/validatorsComponent';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom';
+import FinalScreen from '../../../pages/FinalScreen';
+import Questions from '../../../pages/Questions';
+import Settings from '../../../pages/Settings';
 function Body() {
-
-  //const [currentForm, setCurrentForm] = useState('login');
-  //const toggleForm = (formName) => {
-  //  setCurrentForm(formName);
-  //}
 
   return (
    <div className='body'>
-    <ValidationComponent/>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Settings/>}>
+        </Route>
+        <Route path="/questions" element={<Questions/>}>
+        </Route>
+        <Route path="/score" element={<FinalScreen/>}>
+        </Route>
+      </Routes>
+    </Router>
    </div>
   );
 }
