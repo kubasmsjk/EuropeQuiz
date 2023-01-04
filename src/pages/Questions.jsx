@@ -1,3 +1,5 @@
+import { Button, CircularProgress, Typography } from "@mui/material";
+import { Box } from "@mui/system";
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
@@ -15,23 +17,36 @@ const Questions = () => {
     question_difficulty,
     question_type,
     amount_of_question,
-    score
+    score,
   } = useSelector(state => state);
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
   let apiUrl = `/results?_limit=${amount_of_question}`;
-  if(question_category){
-    apiUrl = apiUrl.concat(`&category=${question_category}`);
+  if(question_category) {
+    switch(question_category){
+      case 1:
+        apiUrl = apiUrl.concat(`&category=Geography`);
+      break;
+      case 2:
+        apiUrl = apiUrl.concat(`&category=History`);
+      break;
+      case 3:
+        apiUrl = apiUrl.concat(`&category=Vehicles`);
+      break;
+      default:
+        return;
+    }
+    
   }
-  if(question_difficulty){
+  if(question_difficulty) {
     apiUrl = apiUrl.concat(`&difficulty=${question_difficulty}`);
   }
-  if(question_type){
+  if(question_type) {
     apiUrl = apiUrl.concat(`&type=${question_type}`);
   }
   
-  const { response, loading} = useAxios({ url: apiUrl });
+  const { response, loading } = useAxios({ url: apiUrl });
   const [questionIndex, setQuestionIndex] = useState(0);
   const [options, setOptions] = useState([]);
 
@@ -50,34 +65,41 @@ const Questions = () => {
 
   if(loading){
     return(
-      <div>Ładuje się</div>
-    )
+      <Box mt={20}>
+        <CircularProgress />
+      </Box>
+    );
   }
+
   const handleClickAnswer = (e) => {
     const question = response[questionIndex];
-    if(e.target.textContent === question.correct_answer){
+    if(e.target.textContent === question.correct_answer) {
       dispatch(handleScoreChange(score + 1));
     }
-    if(questionIndex +1 < response.length){
+
+    if(questionIndex +1 < response.length) {
       setQuestionIndex(questionIndex + 1);
     } else {
       navigate('/score');
     }
   };
-
+ 
   return (
-    <div>
-      <h4>Questions {questionIndex + 1}</h4>
-      <p>{response[questionIndex].question}</p>
+    <Box>
+      <Typography variant="h4">Questions {questionIndex + 1}</Typography>
+      <Typography mt={5}>{response[questionIndex].question}</Typography>
         {options.map((data, id) => (
-          <div key = {id}><button onClick={handleClickAnswer}>{data}</button></div>
+          <Box mt={2} key={id}>
+            <Button onClick={handleClickAnswer} variant="contained">
+              {data}
+            </Button>
+          </Box>
         ))}
-        <div>
-          <p>Score: {score}/{response.length}</p>
-        </div>
+        <Box mt={5}>
+          <Typography>Score: {score}/{response.length}</Typography>
+        </Box>
+    </Box>
+  );
+};
 
-    </div>
-  )
-}
-
-export default Questions
+export default Questions;

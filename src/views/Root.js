@@ -3,18 +3,18 @@ import Body from '../components/ui/body/Body';
 import Footer from '../components/ui/footer/Footer';
 import Header from '../components/ui/header/Header';
 import React from 'react';
+import { Box } from '@mui/system';
 
 
 
 
 function Root() {
   return (
-    <div className='root'>
+    <Box>
       <header><Header/></header>
       <main><Body/></main>
       <footer><Footer/></footer>
-    </div>
-
+    </Box>
   );
 }
 

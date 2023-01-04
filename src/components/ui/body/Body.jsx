@@ -1,3 +1,5 @@
+import { Container } from '@mui/material';
+import { Box } from '@mui/system';
 import React from 'react'
 import {
   BrowserRouter as Router,
@@ -5,23 +7,27 @@ import {
   Route
 } from 'react-router-dom';
 import FinalScreen from '../../../pages/FinalScreen';
+import FirstScreen from '../../../pages/FirstScreen';
 import Questions from '../../../pages/Questions';
 import Settings from '../../../pages/Settings';
 function Body() {
-
   return (
-   <div className='body'>
     <Router>
-      <Routes>
-        <Route path="/" element={<Settings/>}>
-        </Route>
-        <Route path="/questions" element={<Questions/>}>
-        </Route>
-        <Route path="/score" element={<FinalScreen/>}>
-        </Route>
-      </Routes>
+      <Container maxWidth="sm">
+        <Box textAlign="center" mt={5}>
+          <Routes>
+            <Route path="/" element={<FirstScreen/>}>
+            </Route>
+            <Route path="/settings" element={<Settings/>}>
+            </Route>
+            <Route path="/questions" element={<Questions/>}>
+            </Route>
+            <Route path="/score" element={<FinalScreen/>}>
+            </Route>
+          </Routes>
+        </Box>
+      </Container>
     </Router>
-   </div>
   );
 }
 

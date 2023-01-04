@@ -15,12 +15,12 @@ const useAxios = ( { url } ) => {
                 .get(url)
                 .then(res => setResponse(res.data))
                 .catch(err => setError(err))
-                .finally(() => setLoading(false))
+                .finally(() => setLoading(false));
         }
         fetchData();
     }, [url]);
 
-  return { response, error, loading }
+  return { response, error, loading };
 }
 
-export default useAxios
+export default useAxios;
