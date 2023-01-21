@@ -8,8 +8,10 @@ import {
 } from 'react-router-dom';
 import FinalScreen from '../../../pages/FinalScreen';
 import FirstScreen from '../../../pages/FirstScreen';
+import AdminScreen from '../../../pages/AdminScreen';
 import Questions from '../../../pages/Questions';
 import Settings from '../../../pages/Settings';
+
 function Body() {
   return (
     <Router>
@@ -19,6 +21,8 @@ function Body() {
             <Route path="/" element={<FirstScreen/>}>
             </Route>
             <Route path="/settings" element={<Settings/>}>
+            </Route>
+            <Route path="/admin" element={<AdminScreen/>}>
             </Route>
             <Route path="/questions" element={<Questions/>}>
             </Route>

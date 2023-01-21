@@ -7,6 +7,12 @@
 body {
     height: 100%;
     min-height: 100vh;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("../images/main.jpg");
+      background-size: 25%;
 }
 
 header {
@@ -16,11 +22,9 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url("../images/header.jpg");
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    border-bottom: 3px dashed rgb(0, 0, 0);
+    
+    
+   
 }
 
 main {
@@ -29,22 +33,6 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgb(191, 140, 104);
-
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 footer {

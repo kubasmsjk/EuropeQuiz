@@ -1,6 +1,7 @@
-import { Button, Typography } from "@mui/material";
+import {useState} from 'react';
+import { Button} from "@mui/material";
 import { Box } from "@mui/system";
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom';
 import TextFieldComp from "../components/form/TextField";
 import { handleAmountChange, handleScoreChange } from '../redux/actions';
@@ -8,22 +9,31 @@ import { handleAmountChange, handleScoreChange } from '../redux/actions';
 const FirstScreen = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { score } = useSelector(state => state);
+  const [nickname, setNickname] = useState('');
+
+  const handleChange = event => {
+    setNickname(event.target.value);
+  }
 
   const handleBackToSettings = () => {
     dispatch(handleScoreChange(0));
     dispatch(handleAmountChange(5));
-    navigate('/settings');
+    console.log({nickname})
+   navigate('/settings');
+  }
+
+  const handleGoToAdminPanel = () => {
+    navigate('/admin');
   }
 
   return (
-    <Box sx={{ display: 'grid',gridAutoRows: '5em',
-    gap: 1 }}>
-      <TextFieldComp type="text" label="Nickname"/>
-      <Button sx={{ backgroundColor: 'white'}} onClick={handleBackToSettings} variant="outlined">
+    <Box sx={{display: 'grid', gridAutoRows: '5em',
+    gap: 1,bgcolor: "rgba(255,255,255, 0.95)",borderRadius: 1, p: 2}}>
+      <TextFieldComp type="text" label="Nickname" id="nickname" name = "nickname" onChange={handleChange} value={ nickname }/>
+      <Button sx={{ "&:hover": {bgcolor: "#F5CE00" },fontSize: 20,color:'white', backgroundColor: '#FFD700'}} onClick={handleBackToSettings}>
         Start game!
       </Button>
-      <Button onClick={handleBackToSettings} variant="outlined">
+      <Button sx={{ "&:hover": {bgcolor: "#F44200" }, fontSize: 20, color:'white', backgroundColor: '#FF4500'}} onClick={handleGoToAdminPanel}>
         Admin!
       </Button>
     </Box>
