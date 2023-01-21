@@ -6,15 +6,17 @@ import TextFieldComp from '../components/form/TextField';
 import useAxios from '../hooks/useAxios';
 import { useDispatch } from 'react-redux'
 import { handleAmountChange } from '../redux/actions'
+import {useState} from 'react';
 
 const Settings = () => {
     const {response, error, loading} = useAxios ({ url : "/db"});
     const navigate = useNavigate();
     const { nickname } = useParams();
     const dispatch = useDispatch();
+    const [amountOfQuestions, setAmountOfQuestions] = useState('');
 
     const handleChange = (e) => {
-        dispatch(handleAmountChange(e.target.value));
+        setAmountOfQuestions(e.target.value)
       };
 
     if(loading){
@@ -46,20 +48,21 @@ const Settings = () => {
 
     const handleSubmit = e => {
         e.preventDefault();
+        dispatch(handleAmountChange(amountOfQuestions));
         navigate('/questions');
     };
     
   return (
         <Box>
             <Typography variant="h3" fontWeight="bold" mb={3}>
-            Welcome { nickname }
+            Hello { nickname }
             </Typography>
             <FormControl sx={{display: 'grid', gridAutoRows: '4em',
             gap: 1,bgcolor: "rgba(255,255,255, 0.95)",borderRadius: 1, p:3}}>
                 <SelectField options={response.categories} label = "Category" />
                 <SelectField options ={difficultyOptions} label = "Difficulty" />
                 <SelectField options ={typeOptions}  label = "Type" />
-                <TextFieldComp type="number" label="Amount of Questions" onChange = {handleChange}/>
+                <TextFieldComp type="number" value = { amountOfQuestions } label="Amount of Questions" id="amountOfQuestions" name = "amountOfQuestions" onChange = {handleChange}/>
                 <Box mt={3} width="100%">
                     <Button fullWidth variant="contained" type="submit" className={Settings.submit} onClick={handleSubmit}>
                         Get Started

@@ -20,7 +20,7 @@ function Body() {
           <Routes>
             <Route path="/" element={<FirstScreen/>}>
             </Route>
-            <Route path="/settings" element={<Settings/>}>
+            <Route path="/settings/:nickname" element={<Settings/>}>
             </Route>
             <Route path="/admin" element={<AdminScreen/>}>
             </Route>
