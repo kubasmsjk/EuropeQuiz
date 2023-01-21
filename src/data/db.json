@@ -13,11 +13,11 @@
       "name": "Vehicles"
     }
   ],
-  "results": [
+  "results": [  
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "question": "Ktory z tych kraji nie jest w UE?",
       "correct_answer": "Norwegia",
       "incorrect_answers": [
@@ -29,33 +29,13 @@
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "question": "Jaka jest stolica Hiszpani?",
       "correct_answer": "Madryt",
       "incorrect_answers": [
         "Lizbona",
         "Moskwa",
         "Oslo"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "Czy schody hiszpańskie znajdują sie w Hiszpanii?",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "Wisła to najdłuższa rzeka w Polsce?",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
       ]
     },
     {
@@ -72,28 +52,8 @@
     },
     {
       "category": "Geography",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "Islandia jest wyspą",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "Watykan jest państwem.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
-      "category": "Geography",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "question": "Które miasto w Europie ma najwięcej mieszkańców",
       "correct_answer": "Londyn",
       "incorrect_answers": [
@@ -105,7 +65,7 @@
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "question": "Gdzie znajduje się Stonehenge?",
       "correct_answer": "Anglia",
       "incorrect_answers": [
@@ -114,10 +74,11 @@
         "Finlandia"
       ]
     },
+
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "question": "Jaka jest stolica Finlandii?",
       "correct_answer": "Helsinki",
       "incorrect_answers": [
@@ -141,13 +102,37 @@
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "hard",
-      "question": "W jakim hrabstwie znajduję się Stonehenge?",
-      "correct_answer": "Wiltshire",
+      "difficulty": "easy",
+      "question": "Jaki jest oficjalny język w Polsce?",
+      "correct_answer": "polski",
       "incorrect_answers": [
-        "Hampshire",
-        "Podlasie",
-        "Bawaria"
+        "rosyjski",
+        "litewski",
+        "hiszpański"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Które miasto niemcy nazywali Danzig?",
+      "correct_answer": "Gdańsk",
+      "incorrect_answers": [
+        "Warszawa",
+        "Zakopane",
+        "Poznań"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "W jakim mieście jest Stadion Narodowy?",
+      "correct_answer": "Warszawa",
+      "incorrect_answers": [
+        "Kraków",
+        "Wrocław",
+        "Kielce"
       ]
     },
     {
@@ -163,52 +148,6 @@
       ]
     },
     {
-      "category": "History",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "Czy Polak był w kosmosie?",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Jakie jest najmniejsze państwo w europie?",
-      "correct_answer": "Watykan",
-      "incorrect_answers": [
-        "Andora",
-        "Niemcy",
-        "Portugalia"
-      ]
-    },
-    {
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Gdzie urodził się Adolf Hitler?",
-      "correct_answer": "Austria",
-      "incorrect_answers": [
-        "Niemcy",
-        "Rosja",
-        "Szwajcaria"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Jaki jest oficjalny język w Polsce?",
-      "correct_answer": "polski",
-      "incorrect_answers": [
-        "rosyjski",
-        "litewski",
-        "hiszpański"
-      ]
-    },
-    {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
@@ -218,104 +157,6 @@
         "Kijów",
         "Paryż",
         "Sarajewo"
-      ]
-    },
-    {
-      "category": "History",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "Czy Napoleon był francuzem?",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
-      "category": "History",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "Czy 2WŚ trwała 7 lat?",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Na jakiej wyspie znajduję się wulkan Etna?",
-      "correct_answer": "Sycylia",
-      "incorrect_answers": [
-        "Korsyka",
-        "Kreta",
-        "Skiathos"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Jaka jest powierzchnia Watykanu?",
-      "correct_answer": "0.44km^2",
-      "incorrect_answers": [
-        "0.10km^2",
-        "0.86km^2",
-        "12.00km^2"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "Czy góry Ural leżą w Serbii?",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "Czy Norwegia graniczy z Rosją?",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "Czy Czesi mają dostęp do morza?",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "W którym roku była bitwa pod Grunwaldem?",
-      "correct_answer": "1410",
-      "incorrect_answers": [
-        "1394",
-        "1411",
-        "1407"
-      ]
-    },
-    {
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Ile lat rządziła Królowa Elżbieta 2 ?",
-      "correct_answer": "70",
-      "incorrect_answers": [
-        "54",
-        "60",
-        "64"
       ]
     },
     {
@@ -330,18 +171,7 @@
         "Berlin"
       ]
     },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Które miasto niemcy nazywali Danzig?",
-      "correct_answer": "Gdańsk",
-      "incorrect_answers": [
-        "Warszawa",
-        "Zakopane",
-        "Poznań"
-      ]
-    },
+    
     {
       "category": "Geography",
       "type": "multiple",
@@ -364,124 +194,6 @@
         "Warszawa",
         "Kijów",
         "Wilno"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "Norwegia ma większą powierzchnię niż Szwecja",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Jaka rzeka płynie przez Lizbone?",
-      "correct_answer": "Tag",
-      "incorrect_answers": [
-        "Sekwana",
-        "Dunaj",
-        "Odra"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Jaka jest stolica Słowenii?",
-      "correct_answer": "Ljubljana",
-      "incorrect_answers": [
-        "Maribor",
-        "Velenje",
-        "Trbovlje"
-      ]
-    },
-    {
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Z którego państwa pochodzi papież Benedykt XVI",
-      "correct_answer": "Niemcy",
-      "incorrect_answers": [
-        "Francja",
-        "Belgia",
-        "Irlandia"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "W jakim mieście jest Stadion Narodowy?",
-      "correct_answer": "Warszawa",
-      "incorrect_answers": [
-        "Kraków",
-        "Wrocław",
-        "Kielce"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Między jakimi państwami jest kanał La Manche",
-      "correct_answer": "Anglia-Francja",
-      "incorrect_answers": [
-        "Anglia-Irlandia",
-        "Francja-Włochy",
-        "Polska-Czechy"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Jak nazywa się najmniejsze morze w Europie?",
-      "correct_answer": "Marmara",
-      "incorrect_answers": [
-        "Bałtyckie",
-        "Kaspijskie",
-        "Martwe"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Jak niemcy mówią na miasto Wrocław?",
-      "correct_answer": "Breslasu",
-      "incorrect_answers": [
-        "Danzig",
-        "Wurst",
-        "Kijów"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Z jakim krajem graniczy Liechtenstein?",
-      "correct_answer": "Austria",
-      "incorrect_answers": [
-        "Czarnogóra",
-        "Czechy",
-        "Andora"
-      ]
-    },
-    {
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "W którym roku był potop Szwedzki?",
-      "correct_answer": "1655",
-      "incorrect_answers": [
-        "1612",
-        "1722",
-        "1679"
       ]
     },
     {
@@ -510,9 +222,175 @@
     },
     {
       "category": "Geography",
-      "type": "boolean",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Jak niemcy mówią na miasto Wrocław?",
+      "correct_answer": "Breslasu",
+      "incorrect_answers": [
+        "Danzig",
+        "Wurst",
+        "Kijów"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Z jakim krajem graniczy Liechtenstein?",
+      "correct_answer": "Austria",
+      "incorrect_answers": [
+        "Czarnogóra",
+        "Czechy",
+        "Andora"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Między jakimi państwami jest kanał La Manche",
+      "correct_answer": "Anglia-Francja",
+      "incorrect_answers": [
+        "Anglia-Irlandia",
+        "Francja-Włochy",
+        "Polska-Czechy"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
       "difficulty": "hard",
-      "question": "Droga Św. Jakuba idzie przez hiszpanie",
+      "question": "W jakim hrabstwie znajduję się Stonehenge?",
+      "correct_answer": "Wiltshire",
+      "incorrect_answers": [
+        "Hampshire",
+        "Podlasie",
+        "Bawaria"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Na jakiej wyspie znajduję się wulkan Etna?",
+      "correct_answer": "Sycylia",
+      "incorrect_answers": [
+        "Korsyka",
+        "Kreta",
+        "Skiathos"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Jaka jest powierzchnia Watykanu?",
+      "correct_answer": "0.44km^2",
+      "incorrect_answers": [
+        "0.10km^2",
+        "0.86km^2",
+        "12.00km^2"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Jakie jest najmniejsze państwo w europie?",
+      "correct_answer": "Watykan",
+      "incorrect_answers": [
+        "Andora",
+        "Niemcy",
+        "Portugalia"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Jaka rzeka płynie przez Lizbone?",
+      "correct_answer": "Tag",
+      "incorrect_answers": [
+        "Sekwana",
+        "Dunaj",
+        "Odra"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Jaka jest stolica Słowenii?",
+      "correct_answer": "Ljubljana",
+      "incorrect_answers": [
+        "Maribor",
+        "Velenje",
+        "Trbovlje"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Jak nazywa się najmniejsze morze w Europie?",
+      "correct_answer": "Marmara",
+      "incorrect_answers": [
+        "Bałtyckie",
+        "Kaspijskie",
+        "Martwe"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Jaka jest najdłuższa rzeka w Europie?",
+      "correct_answer": "Wołga",
+      "incorrect_answers": [
+        "Odra",
+        "Sekwana",
+        "Tag"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Jak niemcy mówią na miasto Wrocław?",
+      "correct_answer": "Breslasu",
+      "incorrect_answers": [
+        "Danzig",
+        "Wurst",
+        "Kijów"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Z jakim krajem graniczy Liechtenstein?",
+      "correct_answer": "Austria",
+      "incorrect_answers": [
+        "Czarnogóra",
+        "Czechy",
+        "Andora"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy schody hiszpańskie znajdują sie w Hiszpanii?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Wisła to najdłuższa rzeka w Polsce?",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -520,38 +398,343 @@
     },
     {
       "category": "Geography",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Jakie jest największe jezioro w Europie?",
-      "correct_answer": "Ładoga",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Islandia jest wyspą",
+      "correct_answer": "True",
       "incorrect_answers": [
-        "Mamry",
-        "Śniardwy",
-        "Hornindalsvatne"
+        "False"
       ]
     },
     {
       "category": "Geography",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Do którego państwa należy wyspa Skiathos?",
-      "correct_answer": "Grecja",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Watykan jest państwem.",
+      "correct_answer": "True",
       "incorrect_answers": [
-        "Chorwacja",
-        "Albania",
-        "Włochy"
+        "False"
       ]
     },
     {
       "category": "Geography",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "W jaki kształt układają się Włochy?",
-      "correct_answer": "But",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy góry Ural leżą w Serbii?",
+      "correct_answer": "False",
       "incorrect_answers": [
-        "Hak",
-        "Pomarańcze",
-        "Czekolade"
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy Norwegia graniczy z Rosją?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy Czesi mają dostęp do morza?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Norwegia ma większą powierzchnię niż Szwecja",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Polska leży nad Morzem Egejskim",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Szwecja ma większą powierzchnię niż Finlandia",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Grenlandia jest wyspą",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Andora jest państwem.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy góry Alpy leżą w Serbii?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy Norwegia graniczy z Finlandia?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy Słowacy mają dostęp do morza?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Dania ma większą powierzchnię niż Szwecja",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Polska leży nad Morzem Barentsa",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Polska jest w Uni Europejskiej",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Litwa graniczy z Łotwą",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Białoruś graniczy z Ukrainą",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Samoa jest wyspą",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Vanuatu jest państwem.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy góry Alpy leżą w Hiszpani?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy Rosja graniczy z Finlandia?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy Austriacy mają dostęp do morza?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Dania ma większą powierzchnię niż Luksemburg",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Japonia leży nad Morzem Barentsa",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Norwegia jest w Uni Europejskiej",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Węgry graniczą z Łotwą",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Mołdawia graniczy z Ukrainą",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Gdzie urodził się Adolf Hitler?",
+      "correct_answer": "Austria",
+      "incorrect_answers": [
+        "Niemcy",
+        "Rosja",
+        "Szwajcaria"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "W którym roku była bitwa pod Grunwaldem?",
+      "correct_answer": "1410",
+      "incorrect_answers": [
+        "1394",
+        "1411",
+        "1407"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Ile lat rządziła Królowa Elżbieta 2 ?",
+      "correct_answer": "70",
+      "incorrect_answers": [
+        "54",
+        "60",
+        "64"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Z którego państwa pochodzi papież Jan Paweł 2",
+      "correct_answer": "Niemcy",
+      "incorrect_answers": [
+        "Francja",
+        "Belgia",
+        "Irlandia"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "W którym roku był potop Szwedzki?",
+      "correct_answer": "1655",
+      "incorrect_answers": [
+        "1612",
+        "1722",
+        "1679"
       ]
     },
     {
@@ -567,15 +750,269 @@
       ]
     },
     {
-      "category": "Geography",
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Ile lat trwała 2 WŚ",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "2",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "W którym roku był chrzest Polski",
+      "correct_answer": "966",
+      "incorrect_answers": [
+        "1112",
+        "969",
+        "997"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Ile mistrzostw Europy ma Hiszpania w piłce nożnej?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "2",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Ile mistrzostw Europy ma Polska w piłce nożnej?",
+      "correct_answer": "0",
+      "incorrect_answers": [
+        "2",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "category": "History",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Skąd pochodzi Święty Mikołaj?",
-      "correct_answer": "Finlandia",
+      "question": "Gdzie urodził się Adolf Hitler?",
+      "correct_answer": "Austria",
       "incorrect_answers": [
+        "Niemcy",
         "Rosja",
-        "Polska",
-        "Estonia"
+        "Szwajcaria"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "W którym roku była bitwa pod Kircholmem?",
+      "correct_answer": "1605",
+      "incorrect_answers": [
+        "1615",
+        "1511",
+        "1610"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Ile lat rządziła Królowa Elżbieta 2 ?",
+      "correct_answer": "70",
+      "incorrect_answers": [
+        "54",
+        "60",
+        "64"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Z którego państwa pochodzi papież Franciszek",
+      "correct_answer": "Argentyna",
+      "incorrect_answers": [
+        "Francja",
+        "Belgia",
+        "Irlandia"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "W którym roku był potop Szwedzki?",
+      "correct_answer": "1655",
+      "incorrect_answers": [
+        "1612",
+        "1722",
+        "1679"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "W którym roku wybuchla wojna secesyjna",
+      "correct_answer": "1861",
+      "incorrect_answers": [
+        "1867",
+        "1917",
+        "1913"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Ile lat trwała 2 WŚ",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "2",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "W którym roku był chrzest Polski",
+      "correct_answer": "966",
+      "incorrect_answers": [
+        "1112",
+        "969",
+        "997"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Ile mistrzostw Europy ma Hiszpania w piłce nożnej?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "2",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Ile mistrzostw Europy ma Japonia w piłce nożnej?",
+      "correct_answer": "0",
+      "incorrect_answers": [
+        "2",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Gdzie urodził się Adolf Hitler?",
+      "correct_answer": "Austria",
+      "incorrect_answers": [
+        "Niemcy",
+        "Rosja",
+        "Szwajcaria"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "W którym roku była bitwa pod Grunwaldem?",
+      "correct_answer": "1410",
+      "incorrect_answers": [
+        "1394",
+        "1411",
+        "1407"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Ile lat rządziła Królowa Elżbieta 2 ?",
+      "correct_answer": "70",
+      "incorrect_answers": [
+        "54",
+        "60",
+        "64"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Z którego państwa pochodzi papież Benedykt XVI",
+      "correct_answer": "Niemcy",
+      "incorrect_answers": [
+        "Francja",
+        "Belgia",
+        "Irlandia"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "W którym roku rozpoczla sie Zjazd w Gnieznie ?",
+      "correct_answer": "1000",
+      "incorrect_answers": [
+        "1100",
+        "1050",
+        "1015"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "W którym roku wybuchla 1 WŚ",
+      "correct_answer": "1914",
+      "incorrect_answers": [
+        "1911",
+        "1917",
+        "1913"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Ile dni trwała obrona Westerplatte?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "7",
+        "5",
+        "4"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "W którym roku umarł Władysław I Łokietek",
+      "correct_answer": "1333",
+      "incorrect_answers": [
+        "1212",
+        "1369",
+        "1197"
       ]
     },
     {
@@ -591,9 +1028,451 @@
       ]
     },
     {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Ile mistrzostw Europy ma Andora w piłce nożnej?",
+      "correct_answer": "0",
+      "incorrect_answers": [
+        "1",
+        "3",
+        "4"
+      ]
+    },  
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy Polak był w kosmosie?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy Napoleon był francuzem?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy 2WŚ trwała 7 lat?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy Rosjanin był w kosmosie?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy Polska wygrała 2 WŚ?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy 1WŚ trwała 8 lat?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Egipcjanie wynaleźli koło",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy Napoleon był francuzem?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Mussolini był Włochem?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Kościuszko nie walczył w Ameryce",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy Polak był w kosmosie?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Napoleon nie był Francuzem",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy 2WŚ trwała 6 lat?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy pies był w kosmosie?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy Niemcy wygrali 2 WŚ?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy 1WŚ trwała 3 lat?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Sumerowie wynaleźli koło",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy Napoleon był francuzem?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Mussolini był Serbem?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Kościuszko walczył w Ameryce",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Łajka była psem wystrzelonym w kosmos?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy Napoleon był Polakiem?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy 2WŚ trwała 10 lat?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy Amerykanin był w kosmosie?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy Rosja wygrała 2 WŚ?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy 1WŚ trwała 2 lata?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Egipcjanie wynaleźli pieniądze",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy Napoleon umarł w więzieniu?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Majowie zamieszkiwali tereny Meksyku?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Kościuszko walczył w Brazyli",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    
+    {
       "category": "Vehicles",
       "type": "multiple",
       "difficulty": "easy",
+      "question": "Gdzie produkowane są samochody Ferrari?",
+      "correct_answer": "Włochy",
+      "incorrect_answers": [
+        "Rumunia",
+        "Niemcy",
+        "Rosja"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Jakie zwierzę znajduję się na logo Ferrari?",
+      "correct_answer": "Koń",
+      "incorrect_answers": [
+        "Wąż",
+        "Byk",
+        "Bizon"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "W którym włoskim mieście produkuje się Fiata?",
+      "correct_answer": "Turyn",
+      "incorrect_answers": [
+        "Maranello",
+        "Modena",
+        "Rzym"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Które państwo ma literę A w rejestracji?",
+      "correct_answer": "Austria",
+      "incorrect_answers": [
+        "Andora",
+        "Albania",
+        "Amsterdam"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "W jakim państwie produkowalo sie Jelcze?",
+      "correct_answer": "Polska",
+      "incorrect_answers": [
+        "Rosja",
+        "Niemcy",
+        "Białoruś"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Skąd pochodzi marka Dacia",
+      "correct_answer": "Rumunia",
+      "incorrect_answers": [
+        "Niemcy",
+        "Szwecja",
+        "Słowenia"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Ktore z wymienionych nie jest marką z Niemiec?",
+      "correct_answer": "Skoda",
+      "incorrect_answers": [
+        "Mercedes",
+        "Audi",
+        "BMW"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Dla jakiego zespołu jeździł Enzo Ferrari zanim założył swoją markę?",
+      "correct_answer": "Alfa Romeo",
+      "incorrect_answers": [
+        "Auto Union",
+        "Mercedes Benz",
+        "Bentley"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Marka Jaguar należała poprzednio do którego producenta?",
+      "correct_answer": "Ford",
+      "incorrect_answers": [
+        "Chrysler",
+        "General Motors",
+        "Fiat"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Który z poniższych pojazdów ma napęd na tył",
+      "correct_answer": "BMW E39",
+      "incorrect_answers": [
+        "Audi a4",
+        "Mercedes-Benz B",
+        "Fiat Multipla"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "medium",
       "question": "Gdzie produkowane są samochody Ferrari?",
       "correct_answer": "Włochy",
       "incorrect_answers": [
@@ -617,7 +1496,7 @@
     {
       "category": "Vehicles",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "question": "W którym włoskim mieście produkuje się Fiata?",
       "correct_answer": "Turyn",
       "incorrect_answers": [
@@ -630,8 +1509,8 @@
       "category": "Vehicles",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Które państwo ma literę A w rejestracji?",
-      "correct_answer": "Austria",
+      "question": "Które państwo ma literę I w rejestracji?",
+      "correct_answer": "Włochy",
       "incorrect_answers": [
         "Andora",
         "Albania",
@@ -689,7 +1568,7 @@
     {
       "category": "Vehicles",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "question": "Marka Jaguar należała poprzednio do którego producenta?",
       "correct_answer": "Ford",
       "incorrect_answers": [
@@ -712,9 +1591,422 @@
     },
     {
       "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Gdzie będą produkowane samochody Izera?",
+      "correct_answer": "Polska",
+      "incorrect_answers": [
+        "Rumunia",
+        "Niemcy",
+        "Rosja"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Jakie zwierzę znajduję się na logo Abarth?",
+      "correct_answer": "Skorpion",
+      "incorrect_answers": [
+        "Wąż",
+        "Byk",
+        "Bizon"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "W którym włoskim mieście produkuje się Fiata?",
+      "correct_answer": "Turyn",
+      "incorrect_answers": [
+        "Maranello",
+        "Modena",
+        "Rzym"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Które państwo ma literę GB w rejestracji?",
+      "correct_answer": "Wielka Brytania",
+      "incorrect_answers": [
+        "Andora",
+        "Irlandia",
+        "Amsterdam"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "W jakim państwie produkowalo sie Jelcze?",
+      "correct_answer": "Polska",
+      "incorrect_answers": [
+        "Rosja",
+        "Niemcy",
+        "Białoruś"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Skąd pochodzi super-auto Hussarya?",
+      "correct_answer": "Polska",
+      "incorrect_answers": [
+        "Niemcy",
+        "Szwecja",
+        "Słowenia"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Ktore z wymienionych nie jest marką z Rosji?",
+      "correct_answer": "BYD",
+      "incorrect_answers": [
+        "Silant",
+        "Dragon",
+        "GAZ"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Dla jakiego zespołu jeździł Enzo Ferrari zanim założył swoją markę?",
+      "correct_answer": "Alfa Romeo",
+      "incorrect_answers": [
+        "Auto Union",
+        "Mercedes Benz",
+        "Bentley"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Marka Jaguar należała poprzednio do którego producenta?",
+      "correct_answer": "Ford",
+      "incorrect_answers": [
+        "Chrysler",
+        "General Motors",
+        "Fiat"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Który z poniższych pojazdów ma szklany dach jako opcja standardowa?",
+      "correct_answer": "Renault Avantime",
+      "incorrect_answers": [
+        "Audi a4",
+        "Mercedes-Benz A-Class",
+        "Fiat Multipla"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy BMW to niemiecka marka?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    }
+    ,
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Czy Audi to niemiecka marka?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Bugatti to najszybszy seryjny samochód",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Leopard to niemiecki czołg",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Marka Skoda to najpopularniejszy samochod w Polsce",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Renault ma model auta Rapid",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Szwajcaria produkuję samochody marki Seat",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Jaguar ma w logo chomika?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Ford to amerykańska marka",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Srebrny to najpopularniejszy kolor auta",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czarny to najpopularniejszy kolor auta",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    }
+    ,
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Scania to samochody osobowe",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Marka Volvo robi jedne z bardziej bezpieczniejszych samochodów",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
       "type": "boolean",
       "difficulty": "medium",
       "question": "Czy Porsche 911 było produkowane tylko z silnikami boxer?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "W Nowej Zelandii jest ruch prawostronny",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Escalade to luksusowe amerykańskie SUV-y",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Czy Porsche 911 było produkowane tylko z silnikami V6?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Fiat ma model auta o nazwie Punto",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "DAF to marka ciężarówek",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Porsche ma swoją siedzibę w Stuttgartcie",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy Porsche 911 było produkowane tylko z silnikami boxer?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    }
+    ,
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Tesla to samochody elektryczne",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Czy marka BMW posiada model E36?",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Volkswagen został założony w 1936?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Łada to samochody produkowane w Polsce",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Popularny model Garbus był produkowany przez VW",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Seat bierze nazwy swoich modeli od nazwy miast we Włoszech",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Corvette to popularny amerykański sportowy samochod",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "KIA ma w swojej flocie samochody elektryczne",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Renault planuje wypuścic model Clio Rally3?",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"

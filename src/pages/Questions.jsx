@@ -88,7 +88,7 @@ const Questions = () => {
     <Box sx={{display: 'grid', gridAutoRows: '4em',
     gap: 1,bgcolor: "rgba(255,255,255, 0.95)",borderRadius: 1}}>
       <Typography variant="h4">Questions {questionIndex + 1}</Typography>
-      <Typography mt={5}>{response[questionIndex].question}</Typography>
+      <Typography mt={10}>{response[questionIndex].question}</Typography>
         {options.map((data, id) => (
           <Box mt={2} key={id}>
             <Button onClick={handleClickAnswer} variant="contained">
