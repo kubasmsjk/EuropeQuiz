@@ -1,67 +1,40 @@
-import { useState } from 'react'
-import {isNull, omit} from 'lodash'
+import { useState, useEffect } from 'react';
 
-const useForm = () => {
+const useForm = (callback, validate) => {
+  const [values, setValues] = useState({
+    nickname: '',
+   //email: '',
+   //password: '',
+   //password2: ''
+  });
+  const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-    const [values, setvalues] = useState({});
+  const handleChange = e => {
+    const { name, value } = e.target;
+    setValues({
+      ...values,
+      [name]: value
+    });
+  };
 
-    const [errors, setErrors] = useState({});
+  const handleSubmit = e => {
+    e.preventDefault();
 
-    const validate = (event, name, value) => {
+    setErrors(validate(values));
+    setIsSubmitting(true);
+  };
 
-        switch(name) {
-            case 'nickname':
-                if(value.length <= 3){
-                    setErrors({
-                        ...errors,
-                        nickname:'Nazwa użytkownika musi być dluższa niz 3 znaki'
-                    })
-                }else{
-                    let newObj = omit(errors, "nickname");
-                    setErrors(newObj);
-                }
-                break;
+  useEffect(
+    () => {
+      if (Object.keys(errors).length === 0 && isSubmitting) {
+        callback();
+      }
+    },
+    [errors]
+  );
 
-            default:
-                break;
-
-        }
-    }
-
-    const a = (event) => {
-
-        event.persist();
-        //console.log("elo", event.target.name);
-        //console.log("elo1", event.target.value);
-
-        let name = event.target.name;
-        let val = event.target.value
-        
-        validate(event, name, val);
-
-        setvalues({
-            ...values,
-            [name]:val,
-        })
-    }
-
-    const handleSubmit = (value) => {
-        if(value){
-        }else {
-            alert('Wpisz nickname')
-        }
-
-    }
-    
-
-
-    return {
-        values,
-        errors,
-        a,
-        handleSubmit
-        
-    }
-}
+  return { handleChange, handleSubmit, values, errors };
+};
 
 export default useForm;

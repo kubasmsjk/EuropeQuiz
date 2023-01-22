@@ -6,23 +6,22 @@ import useForm from "./useForm";
 import TextFieldComp from "./TextField";
 import ButtonComp from "./Button";
 import { Box } from "@mui/system";
+import validate from './validateInfo'
 
-const StartForm = () => {
+const StartForm = ({ submitForm }) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [nickname, setNickname] = useState("");
-  const { handleSubmit, values, errors } = useForm();
+  const { handleChange, handleSubmit, values, errors } = useForm(
+    submitForm,
+    validate
+  );
 
-  const handleChange = (e) => {
+  const ustawImie = (e) => {
     setNickname(e.target.value);
   };
 
-  const handleGoToSettings = (event) => {
-    event.currentTarget.disabled = true;
-    dispatch(handleScoreChange(0));
-    dispatch(handleAmountChange(5));
-    navigate(`/settings/${nickname}`);
-  };
+
 
   const handleGoToAdminPanel = () => {
     navigate("/admin");
@@ -30,8 +29,23 @@ const StartForm = () => {
 
   const onSubmit = (event) => {
     event.preventDefault();
-    handleSubmit(nickname);
+    handleSubmit(event)
+    console.log(errors.isValidated)
+    if(errors.isValidated){
+      
+      handleGoToSettings(event);
+    }
   };
+
+  
+  const handleGoToSettings = () => {
+    
+    dispatch(handleScoreChange(0));
+    dispatch(handleAmountChange(5));
+    navigate(`/settings/${nickname}`);
+  };
+  
+
 
   return (
     <Box
@@ -41,26 +55,26 @@ const StartForm = () => {
         gridAutoRows: "7em",
       }}
     >
-      <form id="startForm" onSubmit={onSubmit}>
+      <form id="startForm" onSubmit={handleSubmit} noValidate>
         <TextFieldComp
           type="text"
           label="Nickname"
           id="nickname"
           name="nickname"
           onChange={(e) => {
+            ustawImie(e);
             handleChange(e);
+           
           }}
         />
-        {errors.nickname && <p>{errors.nickname}</p>}
+        <Box>{ errors.nickname && <p>{errors.nickname}</p>}</Box>
+
         <ButtonComp
           id="start"
           className="button-54"
           type="submit"
           value="Start game!"
           disabled={false}
-          onClick={(e) => {
-            // handleGoToSettings(e);
-          }}
         ></ButtonComp>
       </form>
       <ButtonComp
