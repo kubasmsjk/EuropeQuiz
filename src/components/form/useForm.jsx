@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import {omit} from 'lodash'
+import { useState } from 'react'
+import {isNull, omit} from 'lodash'
 
 const useForm = () => {
 
@@ -45,9 +45,8 @@ const useForm = () => {
         })
     }
 
-    const handleSubmit = (event) => {
-        if(event) event.preventDefault();
-        if(Object.keys(errors).length === 0 && Object.keys(values).length !== 0){
+    const handleSubmit = (value) => {
+        if(value){
         }else {
             alert('Wpisz nickname')
         }

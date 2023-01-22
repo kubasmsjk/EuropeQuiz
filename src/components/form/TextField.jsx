@@ -1,27 +1,23 @@
-import { FormControl, TextField } from "@mui/material";
-import { Box } from "@mui/system";
-import React from 'react'
-import {useState} from 'react';
+import { TextField } from "@mui/material";
+import React from "react";
 
-
-const TextFieldComp = props => {
-  const { value, label, name, type, onChange  } = props;
+const TextFieldComp = (props) => {
+  const { value, label, name, type, onChange } = props;
 
   return (
-    <Box mt={3} width="100%">
-      <FormControl fullWidth size="small">
-        <TextField
-          label = { label }
-          type={ type }
-          value={ value }
-          name={ name }
-          className="form-control"
-          onChange={onChange}
-          variant = "outlined"
-          size = "small"
-        />
-      </FormControl>
-    </Box>
+    <TextField
+      sx={{
+        width: "100%",
+        pb: "8px",
+      }}
+      label={label}
+      type={type}
+      value={value}
+      name={name}
+      onChange={onChange}
+      size="small"
+      variant="standard"
+    />
   );
 };
 
