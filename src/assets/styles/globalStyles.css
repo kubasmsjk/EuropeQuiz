@@ -80,7 +80,7 @@ footer {
 #startForm{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     max-width: 100%;
 }

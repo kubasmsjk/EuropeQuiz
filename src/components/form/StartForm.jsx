@@ -30,9 +30,7 @@ const StartForm = ({ submitForm }) => {
   const onSubmit = (event) => {
     event.preventDefault();
     handleSubmit(event)
-    console.log(errors.isValidated)
-    if(errors.isValidated){
-      
+    if(errors.nickname){
       handleGoToSettings(event);
     }
   };
@@ -59,16 +57,16 @@ const StartForm = ({ submitForm }) => {
         <TextFieldComp
           type="text"
           label="Nickname"
+          helperText={!errors.nickname ? "" : "Nickname required"}
           id="nickname"
           name="nickname"
+          error={!!errors.nickname}
           onChange={(e) => {
             ustawImie(e);
             handleChange(e);
-           
           }}
         />
-        <Box>{ errors.nickname && <p>{errors.nickname}</p>}</Box>
-
+        
         <ButtonComp
           id="start"
           className="button-54"
@@ -76,6 +74,7 @@ const StartForm = ({ submitForm }) => {
           value="Start game!"
           disabled={false}
         ></ButtonComp>
+        
       </form>
       <ButtonComp
         id="admin"
