@@ -13,7 +13,7 @@
       "name": "Vehicles"
     }
   ],
-  "results": [  
+  "results": [
     {
       "category": "Geography",
       "type": "multiple",
@@ -74,7 +74,6 @@
         "Finlandia"
       ]
     },
-
     {
       "category": "Geography",
       "type": "multiple",
@@ -171,7 +170,6 @@
         "Berlin"
       ]
     },
-    
     {
       "category": "Geography",
       "type": "multiple",
@@ -724,7 +722,6 @@
         "Irlandia"
       ]
     },
-    
     {
       "category": "History",
       "type": "multiple",
@@ -845,7 +842,6 @@
         "Irlandia"
       ]
     },
-    
     {
       "category": "History",
       "type": "multiple",
@@ -966,7 +962,6 @@
         "Irlandia"
       ]
     },
-    
     {
       "category": "History",
       "type": "multiple",
@@ -1038,7 +1033,7 @@
         "3",
         "4"
       ]
-    },  
+    },
     {
       "category": "History",
       "type": "boolean",
@@ -1049,7 +1044,6 @@
         "False"
       ]
     },
-    
     {
       "category": "History",
       "type": "boolean",
@@ -1080,7 +1074,6 @@
         "False"
       ]
     },
-    
     {
       "category": "History",
       "type": "boolean",
@@ -1111,7 +1104,6 @@
         "True"
       ]
     },
-    
     {
       "category": "History",
       "type": "boolean",
@@ -1152,7 +1144,6 @@
         "False"
       ]
     },
-    
     {
       "category": "History",
       "type": "boolean",
@@ -1183,7 +1174,6 @@
         "False"
       ]
     },
-    
     {
       "category": "History",
       "type": "boolean",
@@ -1214,7 +1204,6 @@
         "False"
       ]
     },
-    
     {
       "category": "History",
       "type": "boolean",
@@ -1255,7 +1244,6 @@
         "False"
       ]
     },
-    
     {
       "category": "History",
       "type": "boolean",
@@ -1286,7 +1274,6 @@
         "False"
       ]
     },
-    
     {
       "category": "History",
       "type": "boolean",
@@ -1317,7 +1304,6 @@
         "True"
       ]
     },
-    
     {
       "category": "History",
       "type": "boolean",
@@ -1348,7 +1334,6 @@
         "True"
       ]
     },
-    
     {
       "category": "Vehicles",
       "type": "multiple",
@@ -1718,8 +1703,7 @@
       "incorrect_answers": [
         "False"
       ]
-    }
-    ,
+    },
     {
       "category": "Vehicles",
       "type": "boolean",
@@ -1819,8 +1803,7 @@
       "incorrect_answers": [
         "True"
       ]
-    }
-    ,
+    },
     {
       "category": "Vehicles",
       "type": "boolean",
@@ -1920,8 +1903,7 @@
       "incorrect_answers": [
         "False"
       ]
-    }
-    ,
+    },
     {
       "category": "Vehicles",
       "type": "boolean",

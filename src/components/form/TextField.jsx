@@ -19,7 +19,6 @@ const TextFieldComp = (props) => {
       onChange={onChange}
       size="small"
       variant="standard"
-      
     />
   );
 };

@@ -48,7 +48,7 @@ const StartForm = ({ submitForm }) => {
   return (
     <Box
       sx={{
-        display: "grid",
+        display: "block",
         width: "100%",
         gridAutoRows: "7em",
       }}

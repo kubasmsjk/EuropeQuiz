@@ -1,86 +1,91 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100%;
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)),
-        url("../images/main.jpg");
-    background-size: 25%;
+  height: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/main.jpg");
+  background-size: 25%;
 }
 
 header {
-    min-height: 20vh;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  min-height: 20vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 main {
-    min-height: 76vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  min-height: 72.3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20;
 }
 
 footer {
-    min-height: 4vh;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #292929;
+  min-height: 4vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #292929;
 }
 
 /* CSS */
 .button-54 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000;
-    cursor: pointer;
-    border: 3px solid;
-    padding: 0.25em 0.5em;
-    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-    position: relative;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
 .button-54:active {
-    box-shadow: 0px 0px 0px 0px;
-    top: 5px;
-    left: 5px;
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
 }
 
 @media (min-width: 768px) {
-    .button-54 {
-        padding: 0.25em 0.75em;
-    }
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
 }
 
 #start {
-    background-color: #ffbb00;
+  background-color: #ffbb00;
+  margin-bottom: 1em;
 }
 
 #admin {
-    background-color: #ff0000;
+  background-color: #ff0000;
 }
-#startForm{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    max-width: 100%;
+#answer{
+    
+}
+#startForm {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
 }

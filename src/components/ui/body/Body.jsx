@@ -16,7 +16,7 @@ function Body() {
   return (
     <Router>
       <Container maxWidth="sm">
-        <Box textAlign="center" mt={5}>
+        <Box>
           <Routes>
             <Route path="/" element={<FirstScreen/>}>
             </Route>
