@@ -8,10 +8,10 @@ export default function validateInfo(values) {
     //   errors.name = 'Enter a valid name';
     // }
   
-    if (!values.email) {
-      errors.email = 'Email required';
-    } else if (!/\S+@\S+\.\S+/.test(values.email)) {
-      errors.email = 'Email address is invalid';
+    if (!values.amountOfQuestions) {
+      errors.amountOfQuestions = 'Email required';
+    } else if (!/\b([1-9]|10)\b/.test(values.amountOfQuestions)) {
+      errors.amountOfQuestions = 'Email address is invalid';
     }
     if (!values.password) {
       errors.password = 'Password is required';
