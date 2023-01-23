@@ -1,28 +1,24 @@
 export default function validateInfo(values) {
-    let errors = {};
-  
-    if (!values.nickname.trim()) {
-      errors.nickname = 'Nickname required';
-    }
-    // else if (!/^[A-Za-z]+/.test(values.name.trim())) {
-    //   errors.name = 'Enter a valid name';
-    // }
-  
-    if (!values.amountOfQuestions) {
-      errors.amountOfQuestions = 'Email required';
-    } else if (!/\b([1-9]|10)\b/.test(values.amountOfQuestions)) {
-      errors.amountOfQuestions = 'Email address is invalid';
-    }
-    if (!values.password) {
-      errors.password = 'Password is required';
-    } else if (values.password.length < 6) {
-      errors.password = 'Password needs to be 6 characters or more';
-    }
-  
-    if (!values.password2) {
-      errors.password2 = 'Password is required';
-    } else if (values.password2 !== values.password) {
-      errors.password2 = 'Passwords do not match';
-    }
-    return errors;
+  let errors = {};
+
+  if (!values.nickname.trim()) {
+    errors.nickname = "Nickname required";
   }
+  if (!values.amountOfQuestions) {
+    errors.amountOfQuestions = "Email required";
+  } else if (!/\b([1-9]|10)\b/.test(values.amountOfQuestions)) {
+    errors.amountOfQuestions = "Email address is invalid";
+  }
+  //if (!values.password) {
+  //  errors.password = "Password is required";
+  //} else if (values.password.length < 6) {
+  //  errors.password = "Password needs to be 6 characters or more";
+  //}
+  //
+  //if (!values.password2) {
+  //  errors.password2 = "Password is required";
+  //} else if (values.password2 !== values.password) {
+  //  errors.password2 = "Passwords do not match";
+  //}
+  return errors;
+}

@@ -1,49 +1,32 @@
-import { useState } from "react";
+import { handleAmountChange, handleScoreChange } from "../../redux/actions";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { handleAmountChange, handleScoreChange } from "../../redux/actions";
-import useForm from "./useForm";
+import { Box } from "@mui/system";
 import TextFieldComp from "./TextField";
 import ButtonComp from "./Button";
-import { Box } from "@mui/system";
-import validate from './validateInfo'
+import useForm from "./useForm";
+import validate from "./validateInfo";
 
-const StartForm = ({ submitForm }) => {
+const StartForm = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const [nickname, setNickname] = useState("");
-  const { handleChange, handleSubmit, values, errors } = useForm(
-    submitForm,
-    validate
-  );
-
-  const ustawImie = (e) => {
-    setNickname(e.target.value);
-  };
-
-
+  const { handleChange, handleSubmit, values, errors } = useForm(validate);
 
   const handleGoToAdminPanel = () => {
     navigate("/admin");
   };
 
   const onSubmit = (event) => {
-    event.preventDefault();
-    console.log(event.target.nickname.value)
-    if(event.target.nickname.value){
+    if (!!values.nickname && values.nickname !== "Nickname required") {
       handleGoToSettings(event);
     }
   };
 
-  
   const handleGoToSettings = () => {
-    
     dispatch(handleScoreChange(0));
     dispatch(handleAmountChange(5));
-    navigate(`/settings/${nickname}`);
+    navigate(`/settings/${values.nickname}`);
   };
-  
-
 
   return (
     <Box
@@ -53,7 +36,14 @@ const StartForm = ({ submitForm }) => {
         gridAutoRows: "7em",
       }}
     >
-      <form id="startForm" onSubmit={(e) => {handleSubmit(e); onSubmit(e)}} noValidate>
+      <form
+        id="startForm"
+        onSubmit={(e) => {
+          handleSubmit(e);
+          onSubmit(e);
+        }}
+        noValidate
+      >
         <TextFieldComp
           type="text"
           label="Nickname"
@@ -61,28 +51,22 @@ const StartForm = ({ submitForm }) => {
           id="nickname"
           name="nickname"
           error={!!errors.nickname}
-          onChange={(e) => {
-            ustawImie(e);
-            handleChange(e);
-          }}
+          onChange={handleChange}
         />
-        
+
         <ButtonComp
           id="start"
-          className="button-54"
+          className="button"
           type="submit"
           value="Start game!"
-          disabled={false}
         ></ButtonComp>
-        
       </form>
       <ButtonComp
         id="admin"
-        className="button-54"
+        className="button"
         role="button"
         type="button"
         value="Admin!"
-        disabled={false}
         onClick={handleGoToAdminPanel}
       ></ButtonComp>
     </Box>

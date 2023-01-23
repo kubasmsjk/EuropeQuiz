@@ -3,14 +3,14 @@ import React from "react";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const ButtonComp = (props) => {
-  const { id, className, type, value, disabled, onClick } = props;
+  const { id, className, type, value, onClick } = props;
 
   const theme = createTheme({
     components: {
       MuiButton: {
         styleOverrides: {
           root: {
-            width: "100%",
+            width: "50%",
             fontSize: 16,
             fontFamily: ['"Open Sans"', "sans-serif"].join(","),
             letterSpacing: 2,
@@ -33,13 +33,7 @@ const ButtonComp = (props) => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Button
-        id={id}
-        className={className}
-        type={type}
-        disabled={disabled}
-        onClick={onClick}
-      >
+      <Button id={id} className={className} type={type} onClick={onClick}>
         {value}
       </Button>
     </ThemeProvider>

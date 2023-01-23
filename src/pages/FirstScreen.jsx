@@ -5,11 +5,8 @@ const FirstScreen = () => {
   return (
     <Box
       sx={{
-        display: "flex",
-        justifyContent:"center",
-        alignItems:"center",
-        gridAutoRows: "5em",
-        gap: 2,
+        display: "grid",
+        justifyContent: "center",
         bgcolor: "rgba(255,255,255, 0.95)",
         borderRadius: 2,
         border: 1,
