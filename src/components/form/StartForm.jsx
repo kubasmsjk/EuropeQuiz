@@ -29,8 +29,8 @@ const StartForm = ({ submitForm }) => {
 
   const onSubmit = (event) => {
     event.preventDefault();
-    handleSubmit(event)
-    if(errors.nickname){
+    console.log(event.target.nickname.value)
+    if(event.target.nickname.value){
       handleGoToSettings(event);
     }
   };
@@ -53,7 +53,7 @@ const StartForm = ({ submitForm }) => {
         gridAutoRows: "7em",
       }}
     >
-      <form id="startForm" onSubmit={handleSubmit} noValidate>
+      <form id="startForm" onSubmit={(e) => {handleSubmit(e); onSubmit(e)}} noValidate>
         <TextFieldComp
           type="text"
           label="Nickname"
