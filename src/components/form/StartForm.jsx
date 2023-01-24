@@ -16,33 +16,36 @@ const StartForm = () => {
     navigate("/admin");
   };
 
-  const onSubmit = (event) => {
-    if (!!values.nickname && values.nickname !== "Nickname required") {
-      handleGoToSettings(event);
-    }
-  };
-
   const handleGoToSettings = () => {
     dispatch(handleScoreChange(0));
     dispatch(handleAmountChange(5));
     navigate(`/settings/${values.nickname}`);
   };
 
+  const onSubmit = (event) => {
+    if (!!values.nickname) {
+      handleGoToSettings(event);
+    }
+  };
   return (
     <Box
       sx={{
-        display: "block",
-        width: "100%",
-        gridAutoRows: "7em",
+        display: "grid",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        bgcolor: "rgba(255,255,255, 0.95)",
+        borderRadius: 2,
+        border: 1,
+        p: 2,
       }}
     >
       <form
-        id="startForm"
+        id="form"
         onSubmit={(e) => {
           handleSubmit(e);
           onSubmit(e);
         }}
-        noValidate
       >
         <TextFieldComp
           type="text"
@@ -53,7 +56,6 @@ const StartForm = () => {
           error={!!errors.nickname}
           onChange={handleChange}
         />
-
         <ButtonComp
           id="start"
           className="button"

@@ -1,12 +1,18 @@
-import './headerStyle.css'
-import React from 'react'
+import React from "react";
+import { Box } from "@mui/system";
+import "./headerStyle.css";
 
-function Header() {
-  return (
-   <div className='header'>
-    <h1><span>Euro</span><span>quiz</span></h1>
-   </div>
-  );
+class Header extends React.Component {
+  render() {
+    return (
+      <Box className="header">
+        <h1>
+          <span>Euro</span>
+          <span>quiz</span>
+        </h1>
+      </Box>
+    );
+  }
 }
 
 export default Header;

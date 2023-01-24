@@ -5,9 +5,9 @@ export default function validateInfo(values) {
     errors.nickname = "Nickname required";
   }
   if (!values.amountOfQuestions) {
-    errors.amountOfQuestions = "Email required";
+    errors.amountOfQuestions = "Amount of Questions required";
   } else if (!/\b([1-9]|10)\b/.test(values.amountOfQuestions)) {
-    errors.amountOfQuestions = "Email address is invalid";
+    errors.amountOfQuestions = "Amount of Questions is invalid , try 1-10";
   }
   //if (!values.password) {
   //  errors.password = "Password is required";

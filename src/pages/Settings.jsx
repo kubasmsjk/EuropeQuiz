@@ -1,28 +1,22 @@
-import { CircularProgress, FormControl, Typography } from "@mui/material";
-import { Box } from "@mui/system";
-import { useNavigate, useParams } from "react-router-dom";
-import SelectField from "../components/form/SelectField";
-import TextFieldComp from "../components/form/TextField";
-import useAxios from "../hooks/useAxios";
 import { useDispatch } from "react-redux";
 import { handleAmountChange } from "../redux/actions";
-import { useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
+import { CircularProgress, Typography } from "@mui/material";
+import { Box } from "@mui/system";
+import useAxios from "../hooks/useAxios";
+import SelectField from "../components/form/SelectField";
+import TextFieldComp from "../components/form/TextField";
 import ButtonComp from "../components/form/Button";
 import TextComp from "../components/form/Text";
 import useForm from "../components/form/useForm";
 import validate from "../components/form//validateInfo";
 
 const Settings = () => {
-  const { response, error, loading } = useAxios({ url: "/db" });
   const navigate = useNavigate();
-  const { nickname } = useParams();
   const dispatch = useDispatch();
-  const [amountOfQuestions, setAmountOfQuestions] = useState("");
+  const { nickname } = useParams();
+  const { response, error, loading } = useAxios({ url: "/db" });
   const { handleChange, handleSubmit, values, errors } = useForm(validate);
-
-  const ustawLiczbePytan = (e) => {
-    setAmountOfQuestions(e.target.value);
-  };
 
   if (loading) {
     return (
@@ -51,67 +45,64 @@ const Settings = () => {
     { id: "boolean", name: "True/False" },
   ];
 
-  const onSubmit = (event) => {
-    event.preventDefault();
-
-    if (
-      errors.amountOfQuestions !== isNaN &&
-      (errors.amountOfQuestions !== "Email required" ||
-        errors.amountOfQuestions !== "Email address is invalid")
-    ) {
-      handleGoToQuestions(event);
-    }
-  };
-
   const handleGoToQuestions = (e) => {
     e.preventDefault();
-    dispatch(handleAmountChange(amountOfQuestions));
+    dispatch(handleAmountChange(values.amountOfQuestions));
     navigate("/questions");
   };
 
+  const onSubmit = (event) => {
+    handleGoToQuestions(event);
+  };
+
   return (
-    <Box>
-      <form>
-      <FormControl
-        sx={{
-          display: "grid",
-          gridAutoRows: "3.5em",
-          bgcolor: "rgba(255,255,255, 0.95)",
-          borderRadius: 1,
-          p: 1.5,
+    <Box
+      sx={{
+        display: "grid",
+        width: "40%",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        bgcolor: "rgba(255,255,255, 0.95)",
+        borderRadius: 2,
+        border: 1,
+        p: 2,
+      }}
+    >
+      <form
+        id="form"
+        onSubmit={(e) => {
+          handleSubmit(e);
+          onSubmit(e);
         }}
       >
         <TextComp
           variant="h6"
-          fontWeight="bold"
+          fontWeight="550"
           color="black"
-          value={nickname + ", before starting set desired paramerers below"}
+          value={
+            nickname.toUpperCase() +
+            ", before starting set desired paramerers below"
+          }
         ></TextComp>
         <SelectField options={response.categories} label="Category" />
         <SelectField options={difficultyOptions} label="Difficulty" />
         <SelectField options={typeOptions} label="Type" />
         <TextFieldComp
           type="number"
-          value={amountOfQuestions}
           label="Amount of Questions"
+          helperText={!errors.amountOfQuestions ? "" : errors.amountOfQuestions}
           id="amountOfQuestions"
           name="amountOfQuestions"
-          onChange={(e) => {
-            ustawLiczbePytan(e);
-            handleChange(e);
-          }}
+          error={!!errors.amountOfQuestions}
+          onChange={handleChange}
         />
         <ButtonComp
           id="start"
-          className="button ${Settings.submit}"
+          className="button"
           type="submit"
           value="Get Started!"
-          onClick={(e) => {
-            handleSubmit(e);
-            onSubmit(e);
-          }}
         ></ButtonComp>
-      </FormControl>
       </form>
     </Box>
   );

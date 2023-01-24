@@ -1,4 +1,11 @@
-import { Box, FormControl, InputLabel, Menu, MenuItem, Select } from "@mui/material";
+import {
+  Box,
+  FormControl,
+  InputLabel,
+  Menu,
+  MenuItem,
+  Select,
+} from "@mui/material";
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import {
@@ -30,7 +37,13 @@ const SelectField = (props) => {
   };
 
   return (
-    <FormControl size="small" fullWidth>
+    <FormControl
+      sx={{
+        pb: 2,
+      }}
+      size="small"
+      fullWidth
+    >
       <InputLabel>{label}</InputLabel>
       <Select value={value} label={label} onChange={handleChange}>
         {options.map(({ id, name }) => (

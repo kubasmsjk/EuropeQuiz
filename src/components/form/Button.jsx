@@ -10,7 +10,6 @@ const ButtonComp = (props) => {
       MuiButton: {
         styleOverrides: {
           root: {
-            width: "50%",
             fontSize: 16,
             fontFamily: ['"Open Sans"', "sans-serif"].join(","),
             letterSpacing: 2,

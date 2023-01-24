@@ -1,10 +1,10 @@
-import { Button, CircularProgress, Typography } from "@mui/material";
-import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import useAxios from "../hooks/useAxios";
 import { handleScoreChange } from "../redux/actions";
+import { CircularProgress } from "@mui/material";
+import { Box } from "@mui/system";
+import useAxios from "../hooks/useAxios";
 import TextComp from "../components/form/Text";
 import ButtonComp from "../components/form/Button";
 
@@ -88,29 +88,45 @@ const Questions = () => {
     <Box
       sx={{
         display: "grid",
-        gridAutoRows: "3.5em",
+        width: "35%",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
         bgcolor: "rgba(255,255,255, 0.95)",
-        borderRadius: 1,
-        p: 0.5,
+        borderRadius: 2,
+        border: 1,
+        p: 2,
       }}
     >
       <TextComp
         variant="h4"
         value={"Questions " + `${questionIndex + 1}`}
       ></TextComp>
-      <TextComp value={`${response[questionIndex].question}`}></TextComp>
+      <TextComp
+        variant="h6"
+        fontWeight="400"
+        value={`${response[questionIndex].question}`}
+      ></TextComp>
       {options.map((data, id) => (
-        <Box sx={{ display: "flex", justifyContent:"center"}} fullWidth key={id}>
-          <ButtonComp 
-          id="XD"
-          className="button"
-          type="button"
-          value= {data}
-          onClick={handleClickAnswer}>
-          </ButtonComp>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            p: 0.5,
+          }}
+          key={id}
+        >
+          <ButtonComp
+            id="answer"
+            className="button"
+            type="button"
+            value={data}
+            onClick={handleClickAnswer}
+          ></ButtonComp>
         </Box>
       ))}
-      <Box mt={5}>
+      <Box mt={4}>
         <TextComp value={"Score:" + `${score}/${response.length}`}></TextComp>
       </Box>
     </Box>
