@@ -20,7 +20,7 @@ const Settings = () => {
 
   if (loading) {
     return (
-      <Box mt={20}>
+      <Box>
         <CircularProgress />
       </Box>
     );
@@ -28,8 +28,8 @@ const Settings = () => {
 
   if (error) {
     return (
-      <Typography variant="h6" mt={20} color="red">
-        Some Went Wrong!
+      <Typography variant="h3" fontWeight="bold" color="red">
+        Something went wrong!
       </Typography>
     );
   }

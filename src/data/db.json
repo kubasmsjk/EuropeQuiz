@@ -1,15 +1,15 @@
 {
   "categories": [
     {
-      "id": 1,
+      "id": "Geography",
       "name": "Geography"
     },
     {
-      "id": 2,
+      "id": "History",
       "name": "History"
     },
     {
-      "id": 3,
+      "id": "Vehicles",
       "name": "Vehicles"
     }
   ],

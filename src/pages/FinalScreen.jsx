@@ -10,7 +10,7 @@ const FinalScreen = () => {
   const navigate = useNavigate();
   const { score } = useSelector((state) => state);
 
-  const handleBackToSettings = () => {
+  const handleBackToStartForm = () => {
     dispatch(handleScoreChange(0));
     dispatch(handleAmountChange(5));
     navigate("/");
@@ -38,8 +38,8 @@ const FinalScreen = () => {
         id="start"
         className="button"
         type="button"
-        value="back to settings!"
-        onClick={handleBackToSettings}
+        value="Play again!"
+        onClick={handleBackToStartForm}
       ></ButtonComp>
     </Box>
   );

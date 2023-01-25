@@ -22,7 +22,7 @@ const Questions = () => {
   } = useSelector((state) => state);
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  let apiUrl = `/results?_limit=${amount_of_question}`;
+  let apiUrl = `/results?_limit=${amount_of_question}&category=${question_category}&difficulty=${question_difficulty}&type=${question_type}`;
   const { response, loading } = useAxios({ url: apiUrl });
   const [questionIndex, setQuestionIndex] = useState(0);
   const [options, setOptions] = useState([]);
@@ -40,31 +40,9 @@ const Questions = () => {
     }
   }, [response, questionIndex]);
 
-  if (question_category) {
-    switch (question_category) {
-      case 1:
-        apiUrl = apiUrl.concat(`&category=Geography`);
-        break;
-      case 2:
-        apiUrl = apiUrl.concat(`&category=History`);
-        break;
-      case 3:
-        apiUrl = apiUrl.concat(`&category=Vehicles`);
-        break;
-      default:
-        return;
-    }
-  }
-  if (question_difficulty) {
-    apiUrl = apiUrl.concat(`&difficulty=${question_difficulty}`);
-  }
-  if (question_type) {
-    apiUrl = apiUrl.concat(`&type=${question_type}`);
-  }
-
   if (loading) {
     return (
-      <Box mt={20}>
+      <Box>
         <CircularProgress />
       </Box>
     );

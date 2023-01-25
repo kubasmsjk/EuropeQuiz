@@ -12,9 +12,6 @@ const StartForm = () => {
   const navigate = useNavigate();
   const { handleChange, handleSubmit, values, errors } = useForm(validate);
 
-  const handleGoToAdminPanel = () => {
-    navigate("/admin");
-  };
 
   const handleGoToSettings = () => {
     dispatch(handleScoreChange(0));
