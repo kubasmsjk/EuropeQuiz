@@ -1,13 +1,7 @@
-import {
-  Box,
-  FormControl,
-  InputLabel,
-  Menu,
-  MenuItem,
-  Select,
-} from "@mui/material";
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 import { useDispatch } from "react-redux";
+import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 import {
   handleCategoryChange,
   handleDifficultyChange,
@@ -54,6 +48,11 @@ const SelectField = (props) => {
       </Select>
     </FormControl>
   );
+};
+
+SelectField.propTypes = {
+  label: PropTypes.string,
+  options: PropTypes.array,
 };
 
 export default SelectField;

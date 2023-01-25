@@ -63,16 +63,7 @@ const StartForm = () => {
           value="Start game!"
         ></ButtonComp>
       </form>
-      <ButtonComp
-        id="admin"
-        className="button"
-        role="button"
-        type="button"
-        value="Admin!"
-        onClick={handleGoToAdminPanel}
-      ></ButtonComp>
     </Box>
   );
 };
-
 export default StartForm;

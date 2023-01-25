@@ -22,8 +22,24 @@ const Questions = () => {
   } = useSelector((state) => state);
   const navigate = useNavigate();
   const dispatch = useDispatch();
-
   let apiUrl = `/results?_limit=${amount_of_question}`;
+  const { response, loading } = useAxios({ url: apiUrl });
+  const [questionIndex, setQuestionIndex] = useState(0);
+  const [options, setOptions] = useState([]);
+
+  useEffect(() => {
+    if (response?.length) {
+      const question = response[questionIndex];
+      let answers = [...question.incorrect_answers];
+      answers.splice(
+        getRandomInt(question.incorrect_answers.length),
+        0,
+        question.correct_answer
+      );
+      setOptions(answers);
+    }
+  }, [response, questionIndex]);
+
   if (question_category) {
     switch (question_category) {
       case 1:
@@ -45,23 +61,6 @@ const Questions = () => {
   if (question_type) {
     apiUrl = apiUrl.concat(`&type=${question_type}`);
   }
-
-  const { response, loading } = useAxios({ url: apiUrl });
-  const [questionIndex, setQuestionIndex] = useState(0);
-  const [options, setOptions] = useState([]);
-
-  useEffect(() => {
-    if (response?.length) {
-      const question = response[questionIndex];
-      let answers = [...question.incorrect_answers];
-      answers.splice(
-        getRandomInt(question.incorrect_answers.length),
-        0,
-        question.correct_answer
-      );
-      setOptions(answers);
-    }
-  }, [response, questionIndex]);
 
   if (loading) {
     return (

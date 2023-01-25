@@ -22,18 +22,18 @@ const FinalScreen = () => {
         display: "grid",
         gridAutoRows: "4em",
         gap: 1,
-        bgcolor: "#234",
+        bgcolor: "#292929;",
         borderRadius: 1,
         p: 3,
       }}
     >
       <Box className="firework"></Box>
+      <Box className="typewriter">
       <TextComp
         variant="h3"
-        fontWeight="bold"
-        color="#D4C5E2"
-        value={`Final Score ${score}`}
+        value={`Final Score: ${score}`}
       ></TextComp>
+      </Box>
       <ButtonComp
         id="start"
         className="button"

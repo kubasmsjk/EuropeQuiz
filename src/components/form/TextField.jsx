@@ -1,5 +1,6 @@
-import { TextField } from "@mui/material";
 import React from "react";
+import PropTypes from "prop-types";
+import { TextField } from "@mui/material";
 
 const TextFieldComp = (props) => {
   const { value, label, helperText, name, type, error, onChange } = props;
@@ -21,6 +22,16 @@ const TextFieldComp = (props) => {
       variant="standard"
     />
   );
+};
+
+TextFieldComp.propTypes = {
+  value: PropTypes.string,
+  label: PropTypes.string,
+  helperText: PropTypes.string,
+  name: PropTypes.string,
+  type: PropTypes.string,
+  error: PropTypes.bool,
+  onChange: PropTypes.func,
 };
 
 export default TextFieldComp;

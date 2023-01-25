@@ -1,5 +1,6 @@
-import { Button } from "@mui/material";
 import React from "react";
+import PropTypes from 'prop-types';
+import { Button } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const ButtonComp = (props) => {
@@ -38,5 +39,13 @@ const ButtonComp = (props) => {
     </ThemeProvider>
   );
 };
+
+ButtonComp.propTypes = {
+  id: PropTypes.string, 
+  className: PropTypes.string, 
+  type: PropTypes.string, 
+  value: PropTypes.string, 
+  onClick: PropTypes.func,
+}
 
 export default ButtonComp;

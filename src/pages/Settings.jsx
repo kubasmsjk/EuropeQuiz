@@ -52,7 +52,12 @@ const Settings = () => {
   };
 
   const onSubmit = (event) => {
-    handleGoToQuestions(event);
+    if (
+      !!values.amountOfQuestions &&
+      errors.amountOfQuestions !== "Amount of Questions is invalid , try 1-10"
+    ) {
+      handleGoToQuestions(event);
+    }
   };
 
   return (
