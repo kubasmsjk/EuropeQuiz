@@ -1,3 +1,19 @@
+# EuropeQuiz
+
+EuropeQuiz to aplikacja webowa w technologi React.  
+Projekt powstał w ramach zajęć Aplikacje internetowe oparte o komponenty.
+
+## Podstawowe funkcje aplikacji: 
+*	pobieranie pytań z api,
+*	możliwość sprawdzenia się w quizie,
+*	wybór kategorii, ilości pytań oraz rodzaju testu T/F, multiple choice,
+*	*	wyświetlanie wyniku końcowego.
+
+## Autorzy:
+* Jakub Mieczkowski ([@kubasmsjk]( https://github.com/kubasmsjk))
+* Bartosz Kraśniewski ([@bartekrul]( https://github.com/bartekrul))
+* Marcin Marciniak ([@Leckly]( https://github.com/Leckly))
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
