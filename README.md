@@ -7,7 +7,7 @@ Projekt powstał w ramach zajęć Aplikacje internetowe oparte o komponenty.
 *	pobieranie pytań z api,
 *	możliwość sprawdzenia się w quizie,
 *	wybór kategorii, ilości pytań oraz rodzaju testu T/F, multiple choice,
-*	*	wyświetlanie wyniku końcowego.
+*	wyświetlanie wyniku końcowego.
 
 ## Autorzy:
 * Jakub Mieczkowski ([@kubasmsjk]( https://github.com/kubasmsjk))
